@@ -1,0 +1,832 @@
+[
+  {
+    "id": "ChIJ14rHVAD1GGARGge84InSHoE",
+    "name": "Bonheur CHOICE",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢６丁目２５−７ ウェルスクエアプラザ奥沢 1階",
+    "lat": 35.6049378,
+    "lng": 139.6615046,
+    "rating": 4,
+    "userRatingsTotal": 15,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJLxLkxRz1GGARX_ODqq9QGp0",
+    "name": "BOULANGERIE NEUF9",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢６丁目１２−３",
+    "lat": 35.6040566,
+    "lng": 139.6611977,
+    "rating": 4.4,
+    "userRatingsTotal": 102,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJ9Rh2D4v1GGAR7vWHtWD0u4U",
+    "name": "C'EST UNE BONNE IDÉE 自由が丘店",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目１５−７ １Ｆ",
+    "lat": 35.6074386,
+    "lng": 139.66650579999998,
+    "rating": 4.4,
+    "userRatingsTotal": 177,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJ9Xy5zqr1GGARBnoV_Sg4ZPM",
+    "name": "Comme'N GLUTEN FREE",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢７丁目１９−１２",
+    "lat": 35.6056157,
+    "lng": 139.66190179999998,
+    "rating": 4.4,
+    "userRatingsTotal": 134,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJi-7_mir1GGARwqjUxs_TNK4",
+    "name": "Comme'N TOKYO 本店",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢７丁目１８−５ 1F",
+    "lat": 35.6057804,
+    "lng": 139.6618677,
+    "rating": 4.3,
+    "userRatingsTotal": 826,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJNTydWZ_1GGAR2QMLmqju5xQ",
+    "name": "GRANDIR 自由が丘店",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目１５−４",
+    "lat": 35.6077564,
+    "lng": 139.66678579999999,
+    "rating": 4.2,
+    "userRatingsTotal": 64,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJsSqug1T1GGARbngoeh1Co_c",
+    "name": "hélianthe 自由が丘",
+    "address": "日本、〒158-0082 東京都世田谷区等々力６丁目２−３",
+    "lat": 35.610078699999995,
+    "lng": 139.6623683,
+    "rating": 4.9,
+    "userRatingsTotal": 264,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJV0uYHQD1GGARZMugGUxqnfI",
+    "name": "I'm donut ? 自由が丘",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目１１−３ SMBC自由が丘ビル 1階",
+    "lat": 35.6076419,
+    "lng": 139.6681377,
+    "rating": 3,
+    "userRatingsTotal": 194,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJszwS6fv1GGARCNAJlL2y23U",
+    "name": "MONT-NOM",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘１丁目２４−１６",
+    "lat": 35.6099572,
+    "lng": 139.6687953,
+    "rating": 4.1,
+    "userRatingsTotal": 127,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJbxO89eL0GGARust4NX46foA",
+    "name": "Pain fermier 穂の香",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢７丁目５３−２",
+    "lat": 35.609154499999995,
+    "lng": 139.6628323,
+    "rating": 4.4,
+    "userRatingsTotal": 128,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJscfM7xP1GGARCWbvmJ5KBlI",
+    "name": "RISTRETTO & CROISSANT LABORATORIO（リストレットアンドクロワッサン ラボラトリオ）",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目１５−４ de aone 2F",
+    "lat": 35.607914,
+    "lng": 139.6668953,
+    "rating": 3.7,
+    "userRatingsTotal": 119,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJe-_lZQD1GGAREs99mhY_zO8",
+    "name": "Tecona bagel 自由が丘",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目１６−１０ メイプルファームA 1",
+    "lat": 35.6084567,
+    "lng": 139.66639089999998,
+    "rating": 4.2,
+    "userRatingsTotal": 297,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJsQi8LyP1GGARxDNiOEJH8Ek",
+    "name": "アルチザン・ブーランジェ・クピド",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢３丁目４５−２",
+    "lat": 35.603462199999996,
+    "lng": 139.6738806,
+    "rating": 4.3,
+    "userRatingsTotal": 198,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJC0MwgI_1GGARJ2cPS1JvLPg",
+    "name": "ゴントラン シェリエ mini自由が丘店",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘１丁目３０−３０ エトモ自由が丘",
+    "lat": 35.607800499999996,
+    "lng": 139.66886209999998,
+    "rating": 4.4,
+    "userRatingsTotal": 9,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJ6XIgEuD0GGARsg1LaKE4kAs",
+    "name": "バゲットラビット 自由が丘店",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘１丁目１６−１４",
+    "lat": 35.611521499999995,
+    "lng": 139.6700626,
+    "rating": 4.3,
+    "userRatingsTotal": 750,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJhw-kNB71GGAReyl9K_GW2II",
+    "name": "パンとエスプレッソと自由形",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目９−６ Luz自由が丘 ３F",
+    "lat": 35.6090492,
+    "lng": 139.6681073,
+    "rating": 3.8,
+    "userRatingsTotal": 230,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJ72S9WB71GGARuhab4R4fN98",
+    "name": "パンの田島 自由が丘店",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目１１−１１",
+    "lat": 35.607347,
+    "lng": 139.6672901,
+    "rating": 4,
+    "userRatingsTotal": 283,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJ--IC4x71GGAR3QB_CH_5sfg",
+    "name": "ブランジェ浅野屋 自由が丘店",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘２丁目１３−１",
+    "lat": 35.606822199999996,
+    "lng": 139.6676408,
+    "rating": 3.9,
+    "userRatingsTotal": 287,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJTblCmiL1GGARBElnKLHcLQU",
+    "name": "ポタージュ",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢４丁目２８−４",
+    "lat": 35.6035214,
+    "lng": 139.6712156,
+    "rating": 4.4,
+    "userRatingsTotal": 73,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJJ3gHCyP1GGARZ7fhKaZVE3Q",
+    "name": "ロワール",
+    "address": "日本、〒158-0083 東京都世田谷区奥沢２丁目１７−４",
+    "lat": 35.60532,
+    "lng": 139.6744065,
+    "rating": 4.5,
+    "userRatingsTotal": 82,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJmXjDvHf1GGARvxMJXkzGm0I",
+    "name": "自由が丘ベーカリー / 自由が丘パティスリー",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘１丁目２６−９ 三笠ビル 1F",
+    "lat": 35.608792699999995,
+    "lng": 139.6686273,
+    "rating": 4.1,
+    "userRatingsTotal": 128,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJ-QcWb-_1GGARkuvRzyZnJvk",
+    "name": "東京食パン 壱よし",
+    "address": "日本、〒152-0035 東京都目黒区自由が丘１丁目３−１３",
+    "lat": 35.6084572,
+    "lng": 139.6708779,
+    "rating": 4.2,
+    "userRatingsTotal": 33,
+    "station": "自由が丘"
+  },
+  {
+    "id": "ChIJOTRt2Xz1GGARI8nZU9h05ls",
+    "name": "3 STARS PANCAKE",
+    "address": "日本、〒211-0016 神奈川県川崎市中原区市ノ坪１２８番地１ Prima Sk 武蔵小杉 201",
+    "lat": 35.5722996,
+    "lng": 139.6597627,
+    "rating": 4.1,
+    "userRatingsTotal": 728,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJQemD_hX1GGARQc0b9bqsJnc",
+    "name": "AREUM BAGELアルムベーグル武蔵小杉店",
+    "address": "日本、〒211-0016 神奈川県川崎市中原区市ノ坪２９",
+    "lat": 35.5735254,
+    "lng": 139.65761469999998,
+    "rating": 4.7,
+    "userRatingsTotal": 43,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJcZcUmQ31GGARuFqGU4tMiwM",
+    "name": "Papapapa-n!",
+    "address": "日本、〒211-0005 神奈川県川崎市中原区新丸子町７２９",
+    "lat": 35.5808786,
+    "lng": 139.66078339999999,
+    "rating": 4.1,
+    "userRatingsTotal": 132,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJYVbRSEP1GGARG97fanXMPok",
+    "name": "R Baker 武蔵小杉店",
+    "address": "日本、〒211-0063 神奈川県川崎市中原区小杉町３丁目６００",
+    "lat": 35.5759872,
+    "lng": 139.6585178,
+    "rating": 3.6,
+    "userRatingsTotal": 161,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJu87rQ5D1GGARjk2RyM4pJ6U",
+    "name": "THE CITY BAKERY グランツリー武蔵小杉",
+    "address": "日本、〒211-0004 神奈川県川崎市中原区新丸子東３丁目１１３５−１ グランツリー武蔵小杉 1F",
+    "lat": 35.574033,
+    "lng": 139.6602523,
+    "rating": 3.6,
+    "userRatingsTotal": 129,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJodf8FoyPGGARhsjwYk9kNJE",
+    "name": "Voyage Side mogu (ボヤージュサイド・もぐ) ベーカリーカフェ",
+    "address": "日本、〒211-0064 神奈川県川崎市中原区今井南町１−１６",
+    "lat": 35.574555,
+    "lng": 139.6553461,
+    "rating": 4.4,
+    "userRatingsTotal": 70,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJtTfQFav1GGAR6ka5XWyO0i4",
+    "name": "タイニー ナチュラマーケット",
+    "address": "日本、〒211-0005 神奈川県川崎市中原区新丸子町９６４−３",
+    "lat": 35.5774149,
+    "lng": 139.66043070000003,
+    "rating": 3.7,
+    "userRatingsTotal": 229,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJFa0acHn1GGARcUrDS7lucrc",
+    "name": "ぱんぬはる",
+    "address": "日本、〒211-0064 神奈川県川崎市中原区今井南町７−５５ ヴィラ・ファースト",
+    "lat": 35.5741777,
+    "lng": 139.6547481,
+    "rating": 4.2,
+    "userRatingsTotal": 81,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJ2z7ufW_1GGARYEAJ6ys7EUU",
+    "name": "ビッグバン",
+    "address": "日本、〒211-0004 神奈川県川崎市中原区新丸子東１丁目７８５番地１４",
+    "lat": 35.58035710000001,
+    "lng": 139.6636992,
+    "rating": 4.2,
+    "userRatingsTotal": 39,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJn-g2snz1GGARZitmalbcBjM",
+    "name": "ブッシュウィック ベーカリー&グリル グランツリー武蔵小杉店",
+    "address": "日本、〒211-0004 神奈川県川崎市中原区新丸子東３丁目１１３５−１ グランツリー武蔵小杉 １F",
+    "lat": 35.574042299999995,
+    "lng": 139.6605802,
+    "rating": 3.6,
+    "userRatingsTotal": 368,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJsenxw1f1GGARFK0t1TftU2o",
+    "name": "ブランジェ浅野屋 武蔵小杉店",
+    "address": "日本、〒211-0063 神奈川県川崎市中原区小杉町３丁目492番 JR武蔵小杉駅",
+    "lat": 35.576774199999996,
+    "lng": 139.65958949999998,
+    "rating": 3.8,
+    "userRatingsTotal": 13,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJsRbB4GT1GGAR8tzL5pz79yU",
+    "name": "ベーカリー ブーランジェリー・メチエ",
+    "address": "日本、〒211-0063 神奈川県川崎市中原区小杉町２丁目276 -1 パークシティ武蔵小杉 ザ ガーデン タワーズイースト 1F",
+    "lat": 35.577481299999995,
+    "lng": 139.6572888,
+    "rating": 4.3,
+    "userRatingsTotal": 253,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJqzPCfmX1GGARRzTj3oDI2yQ",
+    "name": "ベル マティネ",
+    "address": "日本、〒211-0004 神奈川県川崎市中原区新丸子東１丁目８２９番地４",
+    "lat": 35.580219,
+    "lng": 139.6629288,
+    "rating": 4.3,
+    "userRatingsTotal": 145,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJi-BeRGP1GGARjsqoJ56NCKI",
+    "name": "メゾンカイザー グランツリー武蔵小杉店",
+    "address": "日本、〒211-0004 神奈川県川崎市中原区新丸子東３丁目１１３５−１",
+    "lat": 35.5735575,
+    "lng": 139.6599339,
+    "rating": 3.9,
+    "userRatingsTotal": 122,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJHQvjdHz1GGARJyOmBmF_t3E",
+    "name": "横浜サンド",
+    "address": "日本、〒211-0063 神奈川県川崎市中原区小杉町３丁目６８−１ フロンティアコスギ 1階",
+    "lat": 35.5730304,
+    "lng": 139.6569218,
+    "rating": 4.3,
+    "userRatingsTotal": 147,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJ8XpI12H1GGARdDMnX6HqrCU",
+    "name": "小麦工房みのや",
+    "address": "日本、〒211-0011 神奈川県川崎市中原区下沼部１７５９",
+    "lat": 35.573215999999995,
+    "lng": 139.66763079999998,
+    "rating": 4.2,
+    "userRatingsTotal": 139,
+    "station": "武蔵小杉"
+  },
+  {
+    "id": "ChIJ-f0MeyD1GGAR28i-RyFFbe8",
+    "name": "3DEUX1（トロワドゥアン）",
+    "address": "日本、〒152-0004 東京都目黒区鷹番３丁目８−１０ １０３",
+    "lat": 35.6295572,
+    "lng": 139.6851734,
+    "rating": 4.8,
+    "userRatingsTotal": 83,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJ9-Ie-9D1GGARNPT03ob6GrQ",
+    "name": "MAISON KUROSU学芸大学",
+    "address": "日本、〒152-0003 東京都目黒区碑文谷６丁目７−２２",
+    "lat": 35.6271772,
+    "lng": 139.68435,
+    "rating": 3.9,
+    "userRatingsTotal": 15,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJKZH2mdH0GGARMElPVV9qCtc",
+    "name": "Petite Colette",
+    "address": "日本、〒152-0003 東京都目黒区碑文谷５丁目３−１３ フォレストヒルズ",
+    "lat": 35.624213999999995,
+    "lng": 139.6848842,
+    "rating": 4.2,
+    "userRatingsTotal": 18,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJQWzxdM30GGARD6POGe78Sts",
+    "name": "エムサイズ",
+    "address": "日本、〒152-0004 東京都目黒区鷹番２丁目５−１７ コーポ丸基",
+    "lat": 35.628491499999996,
+    "lng": 139.6887649,
+    "rating": 4.3,
+    "userRatingsTotal": 133,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJCbT6UgT1GGARqnsw3BSd-tc",
+    "name": "グテ 学芸大学店",
+    "address": "日本、〒152-0004 東京都目黒区鷹番３丁目８−１",
+    "lat": 35.6298532,
+    "lng": 139.68569349999999,
+    "rating": 4.4,
+    "userRatingsTotal": 92,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJczOQEs30GGAR9L4ve_C3a5c",
+    "name": "しいの実社 学芸大学店",
+    "address": "日本、〒152-0004 東京都目黒区鷹番２丁目４−９",
+    "lat": 35.6288109,
+    "lng": 139.6890429,
+    "rating": 4.4,
+    "userRatingsTotal": 34,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJ2YeJu870GGAReEAz_KKaqhk",
+    "name": "トラスパレンテ 学芸大学",
+    "address": "日本、〒152-0004 東京都目黒区鷹番３丁目８−１１ ベルドミール・レナ 1F",
+    "lat": 35.629790199999995,
+    "lng": 139.685137,
+    "rating": 4.4,
+    "userRatingsTotal": 229,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJsbeSas30GGARv9zSNpX8hSY",
+    "name": "麦ばたけ",
+    "address": "日本、〒152-0001 東京都目黒区中央町１丁目１７−１３",
+    "lat": 35.628877599999996,
+    "lng": 139.6897591,
+    "rating": 4.5,
+    "userRatingsTotal": 73,
+    "station": "学芸大学"
+  },
+  {
+    "id": "ChIJAWq1u7PtGGARKwVo8FtDLjU",
+    "name": "nukumuku breadstore 三軒茶屋本店",
+    "address": "日本、〒154-0004 東京都世田谷区太子堂５丁目２９−３",
+    "lat": 35.649673899999996,
+    "lng": 139.6675999,
+    "rating": 3.9,
+    "userRatingsTotal": 298,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJv61k2nv1GGARS46vwOtxH1U",
+    "name": "POTERI BAKERY TOKYO",
+    "address": "日本、〒154-0024 東京都世田谷区三軒茶屋１丁目３７−４ 山本建設山本ビル C号",
+    "lat": 35.642559399999996,
+    "lng": 139.67043239999998,
+    "rating": 4.5,
+    "userRatingsTotal": 276,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJd7VG7Z_0GGARMVV4pYmBwgc",
+    "name": "Richu 濱田家 太子堂本店",
+    "address": "日本、〒154-0004 東京都世田谷区太子堂２丁目２４−７ ラピス三軒茶屋 １階",
+    "lat": 35.6463457,
+    "lng": 139.67004710000003,
+    "rating": 3.9,
+    "userRatingsTotal": 118,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJ5xduDCv1GGARbOPlhd9OoEE",
+    "name": "ジュウニブンベーカリー 三軒茶屋本店",
+    "address": "日本、〒154-0024 東京都世田谷区三軒茶屋１丁目３０−９ 三軒茶屋ターミナルビル １階",
+    "lat": 35.641622999999996,
+    "lng": 139.6698265,
+    "rating": 4.1,
+    "userRatingsTotal": 341,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJzxXuE3v1GGARzPUNX0ftQz4",
+    "name": "ジュウニブンベーカリーカフェ",
+    "address": "日本、〒154-0024 東京都世田谷区三軒茶屋１丁目３０−９ 三軒茶屋ターミナルビル 2階",
+    "lat": 35.641622999999996,
+    "lng": 139.6698265,
+    "rating": 3.8,
+    "userRatingsTotal": 198,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJG1Sql6b0GGARmaZu5Zq7F7A",
+    "name": "せたパン 世田谷製パン",
+    "address": "日本、〒154-0004 東京都世田谷区太子堂１丁目４−３２",
+    "lat": 35.6464754,
+    "lng": 139.6772196,
+    "rating": 3.8,
+    "userRatingsTotal": 124,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJNTqQGaL0GGARu-Bqe6P3q9Y",
+    "name": "パングワン",
+    "address": "日本、〒154-0024 東京都世田谷区三軒茶屋１丁目３６−１５",
+    "lat": 35.643,
+    "lng": 139.67174690000002,
+    "rating": 4.3,
+    "userRatingsTotal": 117,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJoUmikZ_0GGAR75jYC2cz9YU",
+    "name": "ブーランジェリー・ボヌール 三軒茶屋店",
+    "address": "日本、〒154-0004 東京都世田谷区太子堂４丁目２８−１０",
+    "lat": 35.6459629,
+    "lng": 139.6699569,
+    "rating": 4,
+    "userRatingsTotal": 168,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJZWFYE6L0GGART83rA3sgk_w",
+    "name": "ブーランジェリーボヌール 栄通り店",
+    "address": "日本、〒154-0024 東京都世田谷区三軒茶屋１丁目３６−２",
+    "lat": 35.6423604,
+    "lng": 139.6716745,
+    "rating": 3.8,
+    "userRatingsTotal": 241,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJNbvJnp_0GGAR2YgkTnyOCWE",
+    "name": "ミカヅキ堂",
+    "address": "日本、〒154-0004 東京都世田谷区太子堂４丁目２６−７",
+    "lat": 35.6452275,
+    "lng": 139.66965249999998,
+    "rating": 4.2,
+    "userRatingsTotal": 256,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJy4oC9Ef1GGART8Rm4dZ3v2E",
+    "name": "三軒茶屋店TruffleBAKERY",
+    "address": "日本、〒154-0004 東京都世田谷区太子堂２丁目２４−５ 1F",
+    "lat": 35.6461823,
+    "lng": 139.6700175,
+    "rating": 4,
+    "userRatingsTotal": 532,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJv2b1lJ70GGAR8ysTTXbl20A",
+    "name": "濱田家 三軒茶屋本店",
+    "address": "日本、〒154-0024 東京都世田谷区三軒茶屋２丁目１７−１１ グレイス三軒茶屋 １０２",
+    "lat": 35.6429472,
+    "lng": 139.6668231,
+    "rating": 4.1,
+    "userRatingsTotal": 328,
+    "station": "三軒茶屋"
+  },
+  {
+    "id": "ChIJIXcWlXzzGGARq8kYSzfjfDA",
+    "name": "Petersen(ピーターセン)",
+    "address": "日本、〒154-0023 東京都世田谷区若林４丁目６−１ ハイツ喜和",
+    "lat": 35.6465101,
+    "lng": 139.659126,
+    "rating": 4.5,
+    "userRatingsTotal": 151,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJg2Ul1X3zGGAR66nMcQHCoxE",
+    "name": "ニコラス精養堂",
+    "address": "日本、〒154-0023 東京都世田谷区若林３丁目１９−４",
+    "lat": 35.6438992,
+    "lng": 139.6554991,
+    "rating": 4.2,
+    "userRatingsTotal": 253,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJzcmmNuTzGGARkLhdE9KqO0E",
+    "name": "ふぁんぱん",
+    "address": "日本、〒154-0023 東京都世田谷区若林４丁目２７−９ エスペラント小杉",
+    "lat": 35.6460945,
+    "lng": 139.6557774,
+    "rating": 4.1,
+    "userRatingsTotal": 68,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJOaGph37zGGARFlWxcB4GS4Q",
+    "name": "ブーランジェリー スドウ",
+    "address": "日本、〒154-0017 東京都世田谷区世田谷４丁目３−１４",
+    "lat": 35.6437788,
+    "lng": 139.65489630000002,
+    "rating": 4.2,
+    "userRatingsTotal": 676,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJy1vSnpz0GGARZReqyWtqJkQ",
+    "name": "ブーランジュリ シマ",
+    "address": "日本、〒152-0024 東京都世田谷区三軒茶屋２丁目４５−７ グリーンキャピタル三軒茶屋 103",
+    "lat": 35.6399083,
+    "lng": 139.6620893,
+    "rating": 4.1,
+    "userRatingsTotal": 123,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJp69FyIL0GGARnU7rNBGP3uo",
+    "name": "ブランジュリー パリの空の下",
+    "address": "日本、〒154-0011 東京都世田谷区上馬５丁目４０−１３ 吉永荘 1階",
+    "lat": 35.6421669,
+    "lng": 139.6599449,
+    "rating": 3.3,
+    "userRatingsTotal": 81,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJVVUq1H3zGGARBO1taEwu_e4",
+    "name": "メルシーベイク",
+    "address": "日本、〒154-0023 東京都世田谷区若林３丁目１７−１０",
+    "lat": 35.6434502,
+    "lng": 139.6553741,
+    "rating": 4.3,
+    "userRatingsTotal": 185,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJTQpHNX3zGGARTDDnmHpoeWo",
+    "name": "ラ・ブランジェ・ナイーフ",
+    "address": "日本、〒154-0023 東京都世田谷区若林３丁目３３−１６",
+    "lat": 35.6446867,
+    "lng": 139.6605011,
+    "rating": 4.1,
+    "userRatingsTotal": 79,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJMXn_RJbzGGARCNUoozCScFs",
+    "name": "ルブラン",
+    "address": "日本、〒154-0023 東京都世田谷区若林４丁目３１−１５ 光映ビル 1F",
+    "lat": 35.646688999999995,
+    "lng": 139.65382309999998,
+    "rating": 4.6,
+    "userRatingsTotal": 43,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJK470pn_zGGARDrXNdRwiFpg",
+    "name": "わたほろ製パン店",
+    "address": "日本、〒154-0000 東京都世田谷区世田谷１丁目１４−１９",
+    "lat": 35.6424133,
+    "lng": 139.6520713,
+    "rating": 4.7,
+    "userRatingsTotal": 119,
+    "station": "松陰神社前"
+  },
+  {
+    "id": "ChIJc1GeVUfzGGARONOnIENxg5c",
+    "name": "BAKER Aoyagi ベーカーアオヤギ",
+    "address": "日本、〒153-0041 東京都目黒区駒場４丁目６−２ Y-5yamagatayaビル 1F",
+    "lat": 35.6640014,
+    "lng": 139.6775187,
+    "rating": 4.3,
+    "userRatingsTotal": 132,
+    "station": "代々木上原"
+  },
+  {
+    "id": "ChIJX7UdbTfzGGARRByLKAJS1VU",
+    "name": "カタネベーカリー",
+    "address": "日本、〒151-0066 東京都渋谷区西原１丁目７−５",
+    "lat": 35.6735288,
+    "lng": 139.6820342,
+    "rating": 4.4,
+    "userRatingsTotal": 922,
+    "station": "代々木上原"
+  },
+  {
+    "id": "ChIJ9WpO7EfzGGARmZp6judDfDw",
+    "name": "ブーランジェリー&カフェ マンマーノ",
+    "address": "日本、〒151-0066 東京都渋谷区西原３丁目６−５ MH代々木上原 1F",
+    "lat": 35.6702,
+    "lng": 139.6813382,
+    "rating": 4,
+    "userRatingsTotal": 510,
+    "station": "代々木上原"
+  },
+  {
+    "id": "ChIJ39OEbzXzGGARDLfco5jnovY",
+    "name": "フミグラフィコ",
+    "address": "日本、〒151-0062 東京都渋谷区元代々木町９−６",
+    "lat": 35.669922,
+    "lng": 139.6858959,
+    "rating": 4.3,
+    "userRatingsTotal": 58,
+    "station": "代々木上原"
+  },
+  {
+    "id": "ChIJEw5gVEnzGGARLkXFavBwmro",
+    "name": "ルヴァン 富ヶ谷店",
+    "address": "日本、〒151-0063 東京都渋谷区富ケ谷２丁目４３−１３",
+    "lat": 35.6677449,
+    "lng": 139.68578159999998,
+    "rating": 4.2,
+    "userRatingsTotal": 553,
+    "station": "代々木上原"
+  },
+  {
+    "id": "ChIJ30dBnrvxGGARcqWfLtjISQ8",
+    "name": "AOSAN 仙川店",
+    "address": "日本、〒182-0002 東京都調布市仙川町１丁目３−５ マンション松葉",
+    "lat": 35.660613,
+    "lng": 139.582975,
+    "rating": 4,
+    "userRatingsTotal": 366,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJUYWTh6nxGGARcCbv_0QV0ds",
+    "name": "Pâtisserie YUTA ogura vision Y",
+    "address": "日本、〒182-0006 東京都調布市西つつじケ丘３丁目26−１１",
+    "lat": 35.6582334,
+    "lng": 139.5735876,
+    "rating": 4.1,
+    "userRatingsTotal": 124,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJl6P9EsjxGGARXRZ6v930eN8",
+    "name": "カフェ Petit Parc",
+    "address": "日本、〒182-0002 東京都調布市仙川町１丁目7−１",
+    "lat": 35.6608045,
+    "lng": 139.5832558,
+    "rating": 4.3,
+    "userRatingsTotal": 82,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJyYijm7zxGGARu0lUA2or0GE",
+    "name": "ダニーマミー",
+    "address": "日本、〒182-0002 東京都調布市仙川町１丁目９−３２",
+    "lat": 35.660371,
+    "lng": 139.5844353,
+    "rating": 4.3,
+    "userRatingsTotal": 21,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJbzd7hbzxGGARjOepb3rIslw",
+    "name": "ドーナツ工房 レポロ",
+    "address": "日本、〒182-0002 東京都調布市仙川町１丁目１２−２",
+    "lat": 35.6607134,
+    "lng": 139.5846321,
+    "rating": 4.1,
+    "userRatingsTotal": 119,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJOwY0pLHxGGARK1nerC-Y3ig",
+    "name": "ブーランジェリー クープ",
+    "address": "日本、〒182-0006 東京都調布市西つつじケ丘４丁目６−３",
+    "lat": 35.6572692,
+    "lng": 139.5756021,
+    "rating": 4.4,
+    "userRatingsTotal": 89,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJqSP4ZzTxGGAR8zuwcuT2wj4",
+    "name": "ベーカリー コムギノホシ",
+    "address": "日本、〒182-0002 東京都調布市仙川町３丁目３−４ ウィステリア仙川２",
+    "lat": 35.664393499999996,
+    "lng": 139.58358859999998,
+    "rating": 4.1,
+    "userRatingsTotal": 101,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJD5kBlbjxGGAREsSG92y-Hyo",
+    "name": "ベーカリー プロテア",
+    "address": "日本、〒182-0001 東京都調布市緑ケ丘１丁目１０−２２",
+    "lat": 35.666274099999995,
+    "lng": 139.5826433,
+    "rating": 4.4,
+    "userRatingsTotal": 25,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJScffE7HxGGARoC6ZMsWnGWM",
+    "name": "ベーカリー＆カフェ ルパ つつじヶ丘店",
+    "address": "日本、〒182-0006 東京都調布市西つつじケ丘３丁目３５−１",
+    "lat": 35.6582429,
+    "lng": 139.5754087,
+    "rating": 3.3,
+    "userRatingsTotal": 60,
+    "station": "仙川"
+  },
+  {
+    "id": "ChIJO3uGbADxGGARmVsI5vN_3r0",
+    "name": "焼きたてパン工房ふくふく調布仙川店",
+    "address": "日本、〒182-0002 東京都調布市仙川町３丁目1−２ 丸商ビル １Ｆ",
+    "lat": 35.6630038,
+    "lng": 139.58408989999998,
+    "rating": 4.3,
+    "userRatingsTotal": 43,
+    "station": "仙川"
+  }
+]

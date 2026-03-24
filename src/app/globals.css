@@ -1,26 +1,175 @@
 @import "tailwindcss";
 
+/* ============================================
+   PanQ! Design System — CSS Custom Properties
+   Source: DESIGN.md Section 9
+   ============================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand */
+  --color-primary: #904E0C;
+  --color-primary-dim: #814200;
+  --color-primary-container: #FFAF71;
+  --color-on-primary: #FFF7F4;
+  --color-on-primary-container: #603000;
+  --color-primary-fixed: #FFAF71;
+  --color-primary-fixed-dim: #F59F5A;
+
+  --color-secondary: #4B6646;
+  --color-secondary-container: #DAFAD0;
+  --color-secondary-dim: #3F5A3A;
+  --color-on-secondary: #EAFFE1;
+  --color-on-secondary-container: #466141;
+
+  --color-tertiary: #7B5827;
+  --color-tertiary-container: #FCCC90;
+  --color-tertiary-dim: #6E4D1D;
+  --color-on-tertiary: #FFF7F3;
+  --color-on-tertiary-container: #634313;
+
+  /* Surface */
+  --color-surface: #FFF8F6;
+  --color-surface-container-lowest: #FFFFFF;
+  --color-surface-container-low: #FFF0ED;
+  --color-surface-container: #FFE9E4;
+  --color-surface-container-high: #FFE2DB;
+  --color-surface-container-highest: #FFDAD2;
+  --color-surface-dim: #FFCFC4;
+  --color-surface-bright: #FFF8F6;
+  --color-surface-variant: #FFDAD2;
+  --color-surface-tint: #904E0C;
+
+  /* Text & Icons */
+  --color-on-surface: #4E281F;
+  --color-on-surface-variant: #825348;
+  --color-outline: #A16E62;
+  --color-outline-variant: #DEA497;
+
+  /* Inverse */
+  --color-inverse-surface: #1C0905;
+  --color-inverse-on-surface: #B9958D;
+  --color-inverse-primary: #FFA761;
+
+  /* Error */
+  --color-error: #AA371C;
+  --color-error-container: #FA7150;
+  --color-on-error: #FFF7F6;
+  --color-on-error-container: #671200;
+
+  /* Typography */
+  --font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.6rem;
+  --spacing-3: 1rem;
+  --spacing-4: 1.4rem;
+  --spacing-5: 1.8rem;
+  --spacing-6: 2.4rem;
+  --spacing-7: 3.2rem;
+  --spacing-8: 4.2rem;
+
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-default: 1rem;
+  --radius-lg: 2rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-ambient: 0 8px 24px rgba(78, 40, 31, 0.06);
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-blur: blur(12px);
 }
+
+/* ============================================
+   Tailwind v4 Theme Tokens
+   ============================================ */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+
+  /* Brand Colors */
+  --color-panq-primary: #904E0C;
+  --color-panq-primary-dim: #814200;
+  --color-panq-primary-container: #FFAF71;
+  --color-panq-on-primary: #FFF7F4;
+  --color-panq-on-primary-container: #603000;
+
+  --color-panq-secondary: #4B6646;
+  --color-panq-secondary-container: #DAFAD0;
+  --color-panq-on-secondary: #EAFFE1;
+  --color-panq-on-secondary-container: #466141;
+
+  --color-panq-tertiary: #7B5827;
+  --color-panq-tertiary-container: #FCCC90;
+  --color-panq-on-tertiary: #FFF7F3;
+  --color-panq-on-tertiary-container: #634313;
+
+  /* Surface Colors */
+  --color-panq-surface: #FFF8F6;
+  --color-panq-surface-container-lowest: #FFFFFF;
+  --color-panq-surface-container-low: #FFF0ED;
+  --color-panq-surface-container: #FFE9E4;
+  --color-panq-surface-container-high: #FFE2DB;
+  --color-panq-surface-container-highest: #FFDAD2;
+  --color-panq-surface-dim: #FFCFC4;
+  --color-panq-surface-variant: #FFDAD2;
+
+  /* Text & Icons */
+  --color-panq-on-surface: #4E281F;
+  --color-panq-on-surface-variant: #825348;
+  --color-panq-outline: #A16E62;
+  --color-panq-outline-variant: #DEA497;
+
+  /* Inverse */
+  --color-panq-inverse-surface: #1C0905;
+  --color-panq-inverse-on-surface: #B9958D;
+  --color-panq-inverse-primary: #FFA761;
+
+  /* Error */
+  --color-panq-error: #AA371C;
+  --color-panq-error-container: #FA7150;
+  --color-panq-on-error: #FFF7F6;
+
+  /* Spacing */
+  --spacing-panq-1: 0.25rem;
+  --spacing-panq-2: 0.6rem;
+  --spacing-panq-3: 1rem;
+  --spacing-panq-4: 1.4rem;
+  --spacing-panq-5: 1.8rem;
+  --spacing-panq-6: 2.4rem;
+  --spacing-panq-7: 3.2rem;
+  --spacing-panq-8: 4.2rem;
+
+  /* Border Radius */
+  --radius-default: 1rem;
+  --radius-lg: 2rem;
+  --radius-full: 9999px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ============================================
+   Base Styles
+   ============================================ */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar for horizontal scroll areas */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Suppress Tailwind v4 dev indicator bar */
+[data-tailwind-indicator] {
+  display: none !important;
 }
