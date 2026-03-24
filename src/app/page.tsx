@@ -78,7 +78,7 @@ export default function HomePage() {
             <Croissant size={18} className="text-panq-on-primary-container" />
           </div>
           <span className="text-[1.0625rem] font-bold text-panq-on-surface tracking-tight">
-            PanQ Bakery
+            PanQ
           </span>
         </div>
 
