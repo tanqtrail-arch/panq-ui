@@ -24,10 +24,10 @@ const linkItems = [
 ];
 
 const menuItems = [
-  { icon: Info, label: "PanQ について", color: "text-panq-primary" },
-  { icon: FileText, label: "利用規約", color: "text-panq-primary" },
-  { icon: Shield, label: "プライバシーポリシー", color: "text-panq-primary" },
-  { icon: Scale, label: "特定商取引法に基づく表記", color: "text-panq-primary" },
+  { icon: Info, label: "PanQ について", href: "/more/about", color: "text-panq-primary" },
+  { icon: FileText, label: "利用規約", href: "/more/terms", color: "text-panq-primary" },
+  { icon: Shield, label: "プライバシーポリシー", href: "/more/privacy", color: "text-panq-primary" },
+  { icon: Scale, label: "特定商取引法に基づく表記", href: "/more/commercial", color: "text-panq-primary" },
 ];
 
 export default function MorePage() {
@@ -73,17 +73,16 @@ export default function MorePage() {
         {menuItems.map((item) => {
           const Icon = item.icon;
           return (
-            <button
+            <Link
               key={item.label}
+              href={item.href}
               className="
                 flex items-center gap-3 w-full
                 rounded-[2rem] bg-panq-surface-container-lowest
                 p-[var(--spacing-panq-4)]
                 shadow-[var(--shadow-ambient)]
-                cursor-pointer
                 active:scale-[0.98] transition-transform duration-150
               "
-              onClick={() => alert("近日公開")}
             >
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-panq-surface-container">
                 <Icon size={18} className={item.color} />
@@ -92,7 +91,7 @@ export default function MorePage() {
                 {item.label}
               </p>
               <ChevronRight size={18} className="text-panq-on-surface-variant shrink-0" />
-            </button>
+            </Link>
           );
         })}
 
