@@ -8,9 +8,20 @@ import {
   Scale,
   LogOut,
   Store,
+  BookOpen,
+  Star,
+  Users,
+  HelpCircle,
 } from "lucide-react";
 import Link from "next/link";
 import BottomNav from "@/components/BottomNav";
+
+const linkItems = [
+  { icon: BookOpen, label: "つかいかた", href: "/more/howto", color: "text-panq-primary" },
+  { icon: Star, label: "ポイントについて", href: "/more/points", color: "text-panq-primary" },
+  { icon: Users, label: "おともだち紹介", href: "/more/referral", color: "text-panq-primary" },
+  { icon: HelpCircle, label: "よくある質問", href: "/more/faq", color: "text-panq-primary" },
+];
 
 const menuItems = [
   { icon: Info, label: "PanQ について", color: "text-panq-primary" },
@@ -28,6 +39,34 @@ export default function MorePage() {
           その他
         </h1>
       </header>
+
+      {/* Link pages */}
+      <section className="px-[var(--spacing-panq-3)] mt-[var(--spacing-panq-3)] flex flex-col gap-[var(--spacing-panq-3)]">
+        {linkItems.map((item) => {
+          const Icon = item.icon;
+          return (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="
+                flex items-center gap-3 w-full
+                rounded-[2rem] bg-panq-surface-container-lowest
+                p-[var(--spacing-panq-4)]
+                shadow-[var(--shadow-ambient)]
+                active:scale-[0.98] transition-transform duration-150
+              "
+            >
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-panq-surface-container">
+                <Icon size={18} className={item.color} />
+              </div>
+              <p className="flex-1 text-left text-[0.875rem] font-semibold text-panq-on-surface">
+                {item.label}
+              </p>
+              <ChevronRight size={18} className="text-panq-on-surface-variant shrink-0" />
+            </Link>
+          );
+        })}
+      </section>
 
       {/* Menu list */}
       <section className="px-[var(--spacing-panq-3)] mt-[var(--spacing-panq-3)] flex flex-col gap-[var(--spacing-panq-3)]">
