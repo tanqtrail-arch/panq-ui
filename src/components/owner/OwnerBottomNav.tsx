@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Home, Search, Heart, User } from "lucide-react";
+import { Package, BarChart3, Settings } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 interface NavItem {
@@ -12,13 +12,12 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { icon: Home, label: "ホーム", href: "/" },
-  { icon: Search, label: "さがす", href: "/search" },
-  { icon: Heart, label: "お気に入り", href: "/favorites" },
-  { icon: User, label: "マイページ", href: "/mypage" },
+  { icon: Package, label: "出品管理", href: "/owner/listing" },
+  { icon: BarChart3, label: "実績", href: "/owner/stats" },
+  { icon: Settings, label: "設定", href: "/owner/register" },
 ];
 
-export default function BottomNav() {
+export default function OwnerBottomNav() {
   const pathname = usePathname();
 
   return (
@@ -33,14 +32,8 @@ export default function BottomNav() {
       "
     >
       {navItems.map((item) => {
-        const isActive =
-          item.href === "/"
-            ? pathname === "/"
-            : pathname === item.href ||
-              (item.href === "/search" && pathname.startsWith("/bags/")) ||
-              (item.href === "/favorites" && pathname.startsWith("/favorites"));
+        const isActive = pathname === item.href || (item.href === "/owner/listing" && pathname === "/owner");
         const Icon = item.icon;
-
         return (
           <Link
             key={item.href}

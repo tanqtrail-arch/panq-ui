@@ -1,83 +1,91 @@
 @import "tailwindcss";
 
 /* ============================================
-   PanQ! Design System — CSS Custom Properties
-   Source: DESIGN.md Section 9
+   PanQ! Design System v2 — CSS Custom Properties
+   Source: DESIGN_v2.md (Stitch MCP Extract)
+   Creative North Star: "The Artisanal Curator"
    ============================================ */
 
 :root {
-  /* Brand */
-  --color-primary: #904E0C;
-  --color-primary-dim: #814200;
-  --color-primary-container: #FFAF71;
-  --color-on-primary: #FFF7F4;
-  --color-on-primary-container: #603000;
-  --color-primary-fixed: #FFAF71;
-  --color-primary-fixed-dim: #F59F5A;
+  /* ── Primary ── */
+  --color-primary: #845400;
+  --color-primary-container: #C48528;
+  --color-on-primary: #FFFFFF;
+  --color-on-primary-container: #3F2500;
+  --color-primary-fixed: #FFDDB6;
+  --color-primary-fixed-dim: #FFB95B;
 
-  --color-secondary: #4B6646;
-  --color-secondary-container: #DAFAD0;
-  --color-secondary-dim: #3F5A3A;
-  --color-on-secondary: #EAFFE1;
-  --color-on-secondary-container: #466141;
+  /* ── Secondary ── */
+  --color-secondary: #77574D;
+  --color-secondary-container: #FED3C7;
+  --color-on-secondary: #FFFFFF;
+  --color-on-secondary-container: #795950;
+  --color-secondary-fixed: #FFDBD0;
+  --color-secondary-fixed-dim: #E7BDB1;
 
-  --color-tertiary: #7B5827;
-  --color-tertiary-container: #FCCC90;
-  --color-tertiary-dim: #6E4D1D;
-  --color-on-tertiary: #FFF7F3;
-  --color-on-tertiary-container: #634313;
+  /* ── Tertiary ── */
+  --color-tertiary: #7C5730;
+  --color-tertiary-container: #B5895E;
+  --color-on-tertiary: #FFFFFF;
+  --color-on-tertiary-container: #402402;
+  --color-tertiary-fixed: #FFDCBD;
+  --color-tertiary-fixed-dim: #EEBD8E;
 
-  /* Surface */
-  --color-surface: #FFF8F6;
+  /* ── Surface ── */
+  --color-surface: #FEF9EF;
+  --color-surface-bright: #FEF9EF;
+  --color-surface-dim: #DEDAD0;
   --color-surface-container-lowest: #FFFFFF;
-  --color-surface-container-low: #FFF0ED;
-  --color-surface-container: #FFE9E4;
-  --color-surface-container-high: #FFE2DB;
-  --color-surface-container-highest: #FFDAD2;
-  --color-surface-dim: #FFCFC4;
-  --color-surface-bright: #FFF8F6;
-  --color-surface-variant: #FFDAD2;
-  --color-surface-tint: #904E0C;
+  --color-surface-container-low: #F8F3E9;
+  --color-surface-container: #F2EDE3;
+  --color-surface-container-high: #EDE8DE;
+  --color-surface-container-highest: #E7E2D8;
+  --color-surface-variant: #E7E2D8;
+  --color-surface-tint: #845400;
 
-  /* Text & Icons */
-  --color-on-surface: #4E281F;
-  --color-on-surface-variant: #825348;
-  --color-outline: #A16E62;
-  --color-outline-variant: #DEA497;
+  /* ── Text & Icons ── */
+  --color-on-surface: #1D1C16;
+  --color-on-background: #1D1C16;
+  --color-on-surface-variant: #514536;
+  --color-outline: #847564;
+  --color-outline-variant: #D6C4B1;
 
-  /* Inverse */
-  --color-inverse-surface: #1C0905;
-  --color-inverse-on-surface: #B9958D;
-  --color-inverse-primary: #FFA761;
+  /* ── Inverse ── */
+  --color-inverse-surface: #32302A;
+  --color-inverse-on-surface: #F5F0E6;
+  --color-inverse-primary: #FFB95B;
 
-  /* Error */
-  --color-error: #AA371C;
-  --color-error-container: #FA7150;
-  --color-on-error: #FFF7F6;
-  --color-on-error-container: #671200;
+  /* ── Error ── */
+  --color-error: #BA1A1A;
+  --color-error-container: #FFDAD6;
+  --color-on-error: #FFFFFF;
+  --color-on-error-container: #93000A;
 
-  /* Typography */
-  --font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+  /* ── Typography ── */
+  --font-headline: 'Noto Serif JP', serif;
+  --font-body: 'Manrope', 'Noto Sans JP', sans-serif;
 
-  /* Spacing */
-  --spacing-1: 0.25rem;
-  --spacing-2: 0.6rem;
-  --spacing-3: 1rem;
-  --spacing-4: 1.4rem;
-  --spacing-5: 1.8rem;
-  --spacing-6: 2.4rem;
-  --spacing-7: 3.2rem;
-  --spacing-8: 4.2rem;
+  /* ── Spacing (spacingScale: 3) ── */
+  --spacing-1: 0.25rem;   /*  4px */
+  --spacing-2: 0.5rem;    /*  8px */
+  --spacing-3: 0.75rem;   /* 12px */
+  --spacing-4: 1rem;      /* 16px */
+  --spacing-5: 1.5rem;    /* 24px */
+  --spacing-6: 2rem;      /* 32px */
+  --spacing-7: 2.5rem;    /* 40px */
+  --spacing-8: 3rem;      /* 48px */
 
-  /* Radius */
-  --radius-sm: 0.5rem;
-  --radius-default: 1rem;
-  --radius-lg: 2rem;
+  /* ── Radius (ROUND_EIGHT) ── */
+  --radius-sm: 0.25rem;   /*  4px */
+  --radius-default: 0.5rem; /* 8px */
+  --radius-lg: 0.75rem;   /* 12px */
+  --radius-xl: 1rem;      /* 16px */
   --radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-ambient: 0 8px 24px rgba(78, 40, 31, 0.06);
-  --glass-bg: rgba(255, 255, 255, 0.8);
+  /* ── Shadows (warm-tinted, never pure black) ── */
+  --shadow-ambient: 0 4px 16px rgba(132, 84, 0, 0.06);
+  --shadow-premium: 0 10px 30px rgba(132, 84, 0, 0.15);
+  --glass-bg: rgba(254, 249, 239, 0.7);
   --glass-blur: blur(12px);
 }
 
@@ -86,65 +94,80 @@
    ============================================ */
 
 @theme inline {
-  /* Fonts */
-  --font-sans: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+  /* ── Fonts ── */
+  --font-serif: 'Noto Serif JP', serif;
+  --font-sans: 'Manrope', 'Noto Sans JP', sans-serif;
 
-  /* Brand Colors */
-  --color-panq-primary: #904E0C;
-  --color-panq-primary-dim: #814200;
-  --color-panq-primary-container: #FFAF71;
-  --color-panq-on-primary: #FFF7F4;
-  --color-panq-on-primary-container: #603000;
+  /* ── Primary ── */
+  --color-panq-primary: #845400;
+  --color-panq-primary-container: #C48528;
+  --color-panq-on-primary: #FFFFFF;
+  --color-panq-on-primary-container: #3F2500;
+  --color-panq-primary-fixed: #FFDDB6;
+  --color-panq-primary-fixed-dim: #FFB95B;
+  --color-panq-on-primary-fixed-variant: #643F00;
 
-  --color-panq-secondary: #4B6646;
-  --color-panq-secondary-container: #DAFAD0;
-  --color-panq-on-secondary: #EAFFE1;
-  --color-panq-on-secondary-container: #466141;
+  /* ── Secondary ── */
+  --color-panq-secondary: #77574D;
+  --color-panq-secondary-container: #FED3C7;
+  --color-panq-on-secondary: #FFFFFF;
+  --color-panq-on-secondary-container: #795950;
+  --color-panq-secondary-fixed: #FFDBD0;
+  --color-panq-secondary-fixed-dim: #E7BDB1;
 
-  --color-panq-tertiary: #7B5827;
-  --color-panq-tertiary-container: #FCCC90;
-  --color-panq-on-tertiary: #FFF7F3;
-  --color-panq-on-tertiary-container: #634313;
+  /* ── Tertiary ── */
+  --color-panq-tertiary: #7C5730;
+  --color-panq-tertiary-container: #B5895E;
+  --color-panq-on-tertiary: #FFFFFF;
+  --color-panq-on-tertiary-container: #402402;
+  --color-panq-tertiary-fixed: #FFDCBD;
+  --color-panq-tertiary-fixed-dim: #EEBD8E;
+  --color-panq-on-tertiary-fixed-variant: #61401B;
 
-  /* Surface Colors */
-  --color-panq-surface: #FFF8F6;
+  /* ── Surface ── */
+  --color-panq-surface: #FEF9EF;
+  --color-panq-surface-bright: #FEF9EF;
+  --color-panq-surface-dim: #DEDAD0;
   --color-panq-surface-container-lowest: #FFFFFF;
-  --color-panq-surface-container-low: #FFF0ED;
-  --color-panq-surface-container: #FFE9E4;
-  --color-panq-surface-container-high: #FFE2DB;
-  --color-panq-surface-container-highest: #FFDAD2;
-  --color-panq-surface-dim: #FFCFC4;
-  --color-panq-surface-variant: #FFDAD2;
+  --color-panq-surface-container-low: #F8F3E9;
+  --color-panq-surface-container: #F2EDE3;
+  --color-panq-surface-container-high: #EDE8DE;
+  --color-panq-surface-container-highest: #E7E2D8;
+  --color-panq-surface-variant: #E7E2D8;
+  --color-panq-surface-tint: #845400;
 
-  /* Text & Icons */
-  --color-panq-on-surface: #4E281F;
-  --color-panq-on-surface-variant: #825348;
-  --color-panq-outline: #A16E62;
-  --color-panq-outline-variant: #DEA497;
+  /* ── Text & Icons ── */
+  --color-panq-on-surface: #1D1C16;
+  --color-panq-on-background: #1D1C16;
+  --color-panq-on-surface-variant: #514536;
+  --color-panq-outline: #847564;
+  --color-panq-outline-variant: #D6C4B1;
 
-  /* Inverse */
-  --color-panq-inverse-surface: #1C0905;
-  --color-panq-inverse-on-surface: #B9958D;
-  --color-panq-inverse-primary: #FFA761;
+  /* ── Inverse ── */
+  --color-panq-inverse-surface: #32302A;
+  --color-panq-inverse-on-surface: #F5F0E6;
+  --color-panq-inverse-primary: #FFB95B;
 
-  /* Error */
-  --color-panq-error: #AA371C;
-  --color-panq-error-container: #FA7150;
-  --color-panq-on-error: #FFF7F6;
+  /* ── Error ── */
+  --color-panq-error: #BA1A1A;
+  --color-panq-error-container: #FFDAD6;
+  --color-panq-on-error: #FFFFFF;
+  --color-panq-on-error-container: #93000A;
 
-  /* Spacing */
+  /* ── Spacing ── */
   --spacing-panq-1: 0.25rem;
-  --spacing-panq-2: 0.6rem;
-  --spacing-panq-3: 1rem;
-  --spacing-panq-4: 1.4rem;
-  --spacing-panq-5: 1.8rem;
-  --spacing-panq-6: 2.4rem;
-  --spacing-panq-7: 3.2rem;
-  --spacing-panq-8: 4.2rem;
+  --spacing-panq-2: 0.5rem;
+  --spacing-panq-3: 0.75rem;
+  --spacing-panq-4: 1rem;
+  --spacing-panq-5: 1.5rem;
+  --spacing-panq-6: 2rem;
+  --spacing-panq-7: 2.5rem;
+  --spacing-panq-8: 3rem;
 
-  /* Border Radius */
-  --radius-default: 1rem;
-  --radius-lg: 2rem;
+  /* ── Border Radius ── */
+  --radius-default: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
   --radius-full: 9999px;
 }
 
@@ -155,9 +178,43 @@
 body {
   background: var(--color-surface);
   color: var(--color-on-surface);
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+/* Artisan Gradient — signature CTA gradient */
+.artisan-gradient {
+  background: linear-gradient(135deg, #845400 0%, #C48528 100%);
+}
+
+/* Text Gradient — for decorative headings */
+.text-gradient {
+  background: linear-gradient(135deg, #845400 0%, #C48528 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass Panel — for overlays and nav */
+.glass-panel {
+  background: rgba(254, 249, 239, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Premium Glow — for premium/featured cards */
+.premium-glow {
+  box-shadow: 0 10px 30px rgba(132, 84, 0, 0.15);
+}
+
+/* Organic shape — for pickup code etc */
+.organic-shape {
+  border-radius: 60% 40% 70% 30% / 40% 50% 60% 40%;
 }
 
 /* Hide scrollbar for horizontal scroll areas */
@@ -167,6 +224,40 @@ body {
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
+}
+
+/* ============================================
+   Order Complete Animations
+   ============================================ */
+
+@keyframes check-pop {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes check-draw {
+  0% { stroke-dashoffset: 30; }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.08); }
+}
+
+.animate-check-pop {
+  animation: check-pop 0.5s ease-out forwards;
+}
+
+.animate-check-draw {
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+  animation: check-draw 0.4s ease-out 0.3s forwards;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2.5s ease-in-out infinite;
 }
 
 /* Suppress Tailwind v4 dev indicator bar */

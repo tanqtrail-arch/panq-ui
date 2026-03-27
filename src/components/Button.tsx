@@ -12,7 +12,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const variantStyles: Record<Variant, string> = {
   primary:
-    "bg-gradient-to-br from-panq-primary to-panq-primary-container text-panq-on-primary shadow-[var(--shadow-ambient)]",
+    "artisan-gradient text-panq-on-primary shadow-[var(--shadow-ambient)]",
   secondary:
     "bg-panq-secondary-container text-panq-on-secondary-container",
   tertiary:

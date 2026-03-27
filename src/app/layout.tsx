@@ -1,9 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Plus_Jakarta_Sans, Noto_Sans_JP } from "next/font/google";
+import { Noto_Serif_JP, Manrope, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
-const plusJakartaSans = Plus_Jakarta_Sans({
-  variable: "--font-plus-jakarta",
+const notoSerifJP = Noto_Serif_JP({
+  variable: "--font-noto-serif-jp",
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  display: "swap",
+});
+
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
@@ -36,11 +43,11 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${plusJakartaSans.variable} ${notoSansJP.variable}`}
+      className={`${notoSerifJP.variable} ${manrope.variable} ${notoSansJP.variable}`}
     >
       <body className="min-h-dvh bg-panq-surface text-panq-on-surface font-sans">
-        {/* Mobile-first constraint: max 430px centered */}
-        <div className="relative mx-auto min-h-dvh max-w-[430px] bg-panq-surface">
+        {/* Mobile-first constraint: max 390px centered */}
+        <div className="relative mx-auto min-h-dvh max-w-[390px] bg-panq-surface">
           {children}
         </div>
       </body>
